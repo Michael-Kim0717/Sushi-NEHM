@@ -1,0 +1,22 @@
+{
+  "name": "sushi",
+  "version": "1.0.0",
+  "description": "An assignment requiring the use of Node.JS, Express.JS, Handlebars, MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Kim0717/Sushi-NEHM.git"
+  },
+  "author": "Michael Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael-Kim0717/Sushi-NEHM/issues"
+  },
+  "homepage": "https://github.com/Michael-Kim0717/Sushi-NEHM#readme",
+  "dependencies": {
+    "mysql": "^2.16.0"
+  }
+}
