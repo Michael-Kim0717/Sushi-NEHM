@@ -1,0 +1,38 @@
+{{!-- Logo/Header --}}
+<img id="logo" src="./assets/images/sushi.gif">
+
+{{!-- To-Be-Eaten, Devoured Sections --}}
+<div class="container">
+    <div class="row">
+        {{!-- To Be Eaten --}}
+        <div class="col-6">
+            <ul class="list-group" id="toBeEaten">
+                {{#each sushiRolls}}
+                    {{#unless devoured}}
+                        <li class="list-group-item">
+                            <p> {{name}} </p>
+                            
+                            <button class="btn devour" data-id="{{id}}"> DEVOUR!! </button>
+                        </li>
+                    {{/unless}}
+                {{/each}}
+            </ul>
+        </div>
+        {{!-- Devoured --}}
+        <div class="col-6">
+            <ul class="list-group" id="devoured">
+                {{#each sushiRolls}}
+                    {{#if devoured}}
+                        <li class="list-group-item">
+                            <p> {{name}} </p>            
+                        </li>
+                    {{/if}}
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>
+
+{{!-- Input Section --}}
+<textarea placeholder="What Sushi Roll Do You Want To Eat?" id="rollField"></textarea>
+<button class="btn" id="submitRoll"> Enter </button>

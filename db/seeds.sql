@@ -1,3 +1,6 @@
+/* Test Queries to use */
+DELETE FROM sushi WHERE id > 0;
+
 INSERT INTO sushi (name, devoured) VALUES ('Spicy Tuna Roll', true);
 
 INSERT INTO sushi (name, devoured) VALUES ('Cucumber Roll', false);

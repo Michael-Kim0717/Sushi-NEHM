@@ -1,5 +1,6 @@
-var orm = require('../config/orm');
+var orm = require('../config/orm.js');
 
+/* An object model to utilize our ORM and run certain commands. */
 var sushi = {
     all: function(cb) {
         orm.selectAll("sushi", function (res) {

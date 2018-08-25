@@ -1,0 +1,49 @@
+/* General */
+
+/* Header */
+#logo {
+    display: block;
+    margin: 30px auto;
+}
+
+/* To be eaten/Devoured Sections */
+.container {
+    margin: 25px auto;
+}
+
+li {
+    background-color: coral;
+    height: 50px;
+    list-style-type: none;
+}
+
+p {
+    padding: 0 10px;
+}
+
+.devour {
+    background-color: #ff6666;
+    color: whitesmoke;
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+}
+
+/* Input Section */
+textarea {
+    display: block;
+    height: 100px;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+    width: 450px;
+}
+
+#submitRoll {
+    background-color: #ff6666;
+    color: whitesmoke;
+    display: block;
+    height: 50px;
+    margin: 15px auto;
+    width: 100px;
+}
