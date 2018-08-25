@@ -9,12 +9,6 @@ INSERT INTO sushi (name, devoured) VALUES ('Philadelphia Roll', true);
 
 INSERT INTO sushi (name, devoured) VALUES ('Alaska Roll', false);
 
-INSERT INTO sushi (name, devoured) VALUES ('King Crab Roll', true);
-
-INSERT INTO sushi (name, devoured) VALUES ('Dragon Roll', true);
-
-INSERT INTO sushi (name, devoured) VALUES ('Boston Roll', true);
-
 INSERT INTO sushi (name, devoured) VALUES ('Shrimp Tempura Roll', true);
 
 INSERT INTO sushi (name, devoured) VALUES ('California Roll', false);
