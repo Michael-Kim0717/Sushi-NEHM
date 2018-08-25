@@ -74,6 +74,6 @@ The following packages need to be installed using the following commands :
 
 On this Home Page, individuals will have the opportunity to view a list of potential sushi rolls to be eaten as well as sushi rolls that have been eaten.
 
-![Home Page](./assets/images/home.png)
+![Home Page](./public/assets/images/home.png)
 
 ### TO-DO / BUGS
