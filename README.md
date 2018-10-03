@@ -2,6 +2,8 @@
 
 https://sushi-express.herokuapp.com
 
+![Home Page](./public/assets/images/home.png)
+
 A web application that utilizes Node.JS, Express.JS, Handlebars, and MySQL in order to provide a method of viewing sushi rolls that have yet to be eaten and sushi rolls that have been eaten.
 
 ### GETTING STARTED
@@ -9,11 +11,20 @@ A web application that utilizes Node.JS, Express.JS, Handlebars, and MySQL in or
 #### BUILT-WITH
 
 ```
-Node.js : a JavaScript run-time environment that executes its code outside of the browser.
-    body-parser : a middleware package that takes a request's body and parses it to be easily manipulated.
-Express.js : a minimal and flexible Node.js web application framework.
-Handlebars : provides the power necessary to let you build semantic templates effectively with no frustration.
-MySQL : a standard language for storing, manipulating and retrieving data in databases.
+    Languages and Database :
+    
+    JAVASCRIPT
+    JQUERY
+    HANDLEBARS
+    CSS / BOOTSTRAP
+    MYSQL
+
+    Node Packages :
+    
+    body-parser : parse incoming request bodies in a middleware before your handlers, available under the req.body property
+    express : fast, unopinionated, minimalist web framework for node
+    express-handlebars : a Handlebars view engine for Express
+    mysql : a node.js driver for mysql
 ```
 
 #### INSTALLATION GUIDE
