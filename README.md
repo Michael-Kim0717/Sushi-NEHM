@@ -11,13 +11,16 @@ A web application that utilizes Node.JS, Express.JS, Handlebars, and MySQL in or
 #### BUILT-WITH
 
 ```
+
     Languages and Database :
     
-    JAVASCRIPT
-    JQUERY
-    HANDLEBARS
-    CSS / BOOTSTRAP
-    MYSQL
+    Javascript
+    JQuery
+    Handlebars
+    Node
+    Express
+    HTML / CSS / Bootstrap
+    MySQL
 
     Node Packages :
     
@@ -25,6 +28,7 @@ A web application that utilizes Node.JS, Express.JS, Handlebars, and MySQL in or
     express : fast, unopinionated, minimalist web framework for node
     express-handlebars : a Handlebars view engine for Express
     mysql : a node.js driver for mysql
+    
 ```
 
 #### INSTALLATION GUIDE
